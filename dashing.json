@@ -1,6 +1,6 @@
 {
     "name": "Sendmail Milter",
-    "package": "milter",
+    "package": "Sendmail_Milter",
     "index": "index.html",
     "selectors": {
         "title": [

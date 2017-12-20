@@ -1,0 +1,23 @@
+{
+    "name": "Sendmail Milter",
+    "package": "milter",
+    "index": "index.html",
+    "selectors": {
+        "title": [
+            {
+                "type": "Function",
+                "matchpath": "\\/smfi_[a-z]+\\.html$"
+            },
+            {
+                "type": "Function",
+                "matchpath": "\\/xxfi_[a-z]+\\.html$"
+            },
+            {
+                "type": "Guide",
+                "matchpath": "\\/[a-z]+\\.html$"
+            }
+        ]
+    },
+    "icon32x32": "icon.png",
+    "allowJS": false
+}
